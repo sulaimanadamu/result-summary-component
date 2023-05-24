@@ -8,10 +8,19 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
-p,h2,h1,h3,li,.result,.smallest-text{
+p,h2,h1,li,.result,.smallest-text{
     margin: 0;
 }
 
+h3{
+    text-align: left;
+    margin:10px 55px;
+    font-size: 30px;
+}
+
+ul{
+    margin-top: 0;
+}
 /***** end ****/
 
 
@@ -82,8 +91,8 @@ h2{
 /****** right hand side design *****/
 
 .summary{
-    margin: 10px auto;
-    padding-top:  10px;
+    margin: 0px auto;
+    padding-top:  0;
 }
 
 
@@ -102,6 +111,7 @@ li div:last-child{
 }
 
 li:first-child{
+    margin-top: 2px;
     background-color: #FFF6F5;
     color: #bc9391;
 }
