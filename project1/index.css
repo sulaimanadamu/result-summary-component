@@ -1,0 +1,139 @@
+/*** general style ***/
+body{
+    margin: 0;
+    background-color: #F4F7FE;
+    display: flex;
+    height: 99vh;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+p,h2,h1,h3,li,.result,.smallest-text{
+    margin: 0;
+}
+
+/***** end ****/
+
+
+
+/***** Left handside style ****/
+h1{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+i{
+    margin-right: 10px;
+}
+li>:first-child{
+    font-weight: 600;
+    font-size: larger;
+}
+.round{
+    width: fit-content;
+    padding: 45px 65px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: linear-gradient(to bottom, #4925CF, #442DE0, #4633ED);
+}
+
+
+
+p{
+    color: #a2a2cb;
+}
+
+h1,h2{
+    color: #FFF;
+}
+.result-head{
+    margin-top: 25px;
+    font-weight: 500;
+    color:#ececec;
+}
+
+.smallest-text,li{
+    font-weight: 400;
+    padding: 0 40px;
+}
+
+.result{
+    background: linear-gradient(to bottom, #5F3FFC, #503AF5, #352FEB, #4233F0);
+}
+
+.general-container, .result{
+    border-radius: 30px;
+}
+
+.general-container{
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+h2{
+    margin: 15px auto;
+}
+
+
+/****** right hand side design *****/
+
+.summary{
+    margin: 10px auto;
+    padding-top:  10px;
+}
+
+
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 220px;
+    margin: 15px;
+    border-radius: 10px;
+}
+li div:last-child{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li:first-child{
+    background-color: #FFF6F5;
+    color: #bc9391;
+}
+li:nth-child(2){
+    background-color:#FFFBF2;
+    color: #c3aa51;
+}
+li:nth-child(3){
+    background-color:#F2FBFA;
+    color: #304d49;
+}
+
+li:nth-child(4){
+    background-color:#F3F3FD;
+    color: #2a2f63;
+}
+
+span{
+    color:#cacdd4;
+}
+
+.result, .summary{
+    padding: 10px;
+}
+
+
+li:last-child{
+    border-radius: 30px;  
+    background-color: #303B59;
+}
+.submit{
+    width: inherit;
+    border-radius: 30px;
+    color: #f9fafd;
+}
